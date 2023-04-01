@@ -1,4 +1,4 @@
-# react-utils
+# @aliexme/react-utils
 
 React utilites
 
