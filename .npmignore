@@ -1,0 +1,34 @@
+# Editor
+.idea
+.vscode
+
+# Node.js
+node_modules
+yarn.lock
+yarn-error.log
+pnpm-lock.yaml
+
+# Configs
+configs
+tsconfig.json
+tsconfig.*.json
+lint-staged.config.mjs
+
+# Sources
+src
+
+# Build
+lib
+*.tgz
+
+# Tests
+jest.config.js
+coverage
+**/*.spec.ts
+
+# ESLint
+.eslintrc.js
+.eslintcache
+
+# Husky
+.husky
