@@ -13,6 +13,8 @@ configs
 tsconfig.json
 tsconfig.*.json
 lint-staged.config.mjs
+.prettierrc.js
+.np-config.js
 
 # Sources
 src

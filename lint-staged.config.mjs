@@ -1,4 +1,4 @@
 export default {
-  '*.{js,mjs}': ['yarn lint:check'],
-  '*.{ts,tsx}': [() => 'yarn ts:check', 'yarn lint:check'],
+  '*.{js,mjs}': ['pnpm lint:check'],
+  '*.{ts,tsx}': [() => 'pnpm ts:check', 'pnpm lint:check'],
 }

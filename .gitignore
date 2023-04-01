@@ -12,6 +12,10 @@ lib
 *.d.ts
 *.tgz
 
+# Configs
+!.prettierrc.js
+!.np-config.js
+
 # Tests
 coverage
 !jest.config.js
@@ -19,6 +23,3 @@ coverage
 # ESLint
 !.eslintrc.js
 .eslintcache
-
-# Prettier
-!.prettierrc.js
