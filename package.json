@@ -4,10 +4,10 @@
   "description": "React utilites",
   "private": false,
   "author": "Alexander Smirnov <al.smirnov996@gmail.com>",
-  "homepage": "https://github.com/aliexme/js-utils",
+  "homepage": "https://github.com/aliexme/react-utils",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aliexme/js-utils"
+    "url": "https://github.com/aliexme/react-utils"
   },
   "license": "MIT",
   "main": "index.js",
