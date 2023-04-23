@@ -9,6 +9,8 @@ yarn-error.log
 lib
 *.js
 *.js.map
+*.jsx
+*.jsx.map
 *.d.ts
 *.tgz
 
