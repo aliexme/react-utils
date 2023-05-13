@@ -2,16 +2,16 @@ import { type PropsWithChildren, type FC, type ReactElement, Fragment, cloneElem
 
 export type MaybeProps = PropsWithChildren<{
   cond: boolean
-  thenComponent: ReactElement
-  elseComponent?: ReactElement
+  component: ReactElement
+  fallback?: ReactElement
 }>
 
 export const Maybe: FC<MaybeProps> = (props) => {
-  const { cond, thenComponent, elseComponent = <Fragment />, children } = props
+  const { cond, component, fallback = <Fragment />, children } = props
 
   if (cond) {
-    return cloneElement(thenComponent, { children })
+    return cloneElement(component, { children })
   }
 
-  return cloneElement(elseComponent, { children })
+  return cloneElement(fallback, { children })
 }
