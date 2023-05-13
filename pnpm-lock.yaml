@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 devDependencies:
   '@aliexme/eslint-config':
-    specifier: 0.2.7
-    version: 0.2.7(@typescript-eslint/eslint-plugin@5.57.0)(@typescript-eslint/parser@5.57.0)(eslint-config-prettier@8.8.0)(eslint-plugin-import@2.27.5)(eslint-plugin-prettier@4.2.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.32.2)(eslint@8.37.0)(prettier@2.8.7)
+    specifier: 0.3.1
+    version: 0.3.1(@typescript-eslint/eslint-plugin@5.57.0)(@typescript-eslint/parser@5.57.0)(eslint-config-prettier@8.8.0)(eslint-plugin-import@2.27.5)(eslint-plugin-prettier@4.2.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.32.2)(eslint@8.37.0)(prettier@2.8.7)
   '@aliexme/ts-types':
     specifier: 0.2.3
     version: 0.2.3
@@ -61,8 +61,8 @@ devDependencies:
 
 packages:
 
-  /@aliexme/eslint-config@0.2.7(@typescript-eslint/eslint-plugin@5.57.0)(@typescript-eslint/parser@5.57.0)(eslint-config-prettier@8.8.0)(eslint-plugin-import@2.27.5)(eslint-plugin-prettier@4.2.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.32.2)(eslint@8.37.0)(prettier@2.8.7):
-    resolution: {integrity: sha512-qXS00fQi/IZJqPow6/FPOEHKL6lPsIlbhi/GYu5sjdEp4KCWGJlS3kyQapJCbNNoFFYUpJiabrkK4hynJ8+wTw==}
+  /@aliexme/eslint-config@0.3.1(@typescript-eslint/eslint-plugin@5.57.0)(@typescript-eslint/parser@5.57.0)(eslint-config-prettier@8.8.0)(eslint-plugin-import@2.27.5)(eslint-plugin-prettier@4.2.1)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.32.2)(eslint@8.37.0)(prettier@2.8.7):
+    resolution: {integrity: sha512-7msbGd5L5fgzz9HtvfyrWIoxmRU8qN6bs7Un9zhT0BPXS9J7iEKS6JGxXQH8qQP1RwjIXc1COdUpWpTLfrlx8w==}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': ^5.52.0
       '@typescript-eslint/parser': ^5.52.0
@@ -72,6 +72,7 @@ packages:
       eslint-plugin-prettier: ^4.2.1
       eslint-plugin-react: ^7.32.2
       eslint-plugin-react-hooks: ^4.6.0
+      eslint-plugin-react-native: ^4.0.0
       prettier: ^2.8.4
     peerDependenciesMeta:
       '@typescript-eslint/eslint-plugin':
@@ -85,6 +86,8 @@ packages:
       eslint-plugin-react:
         optional: true
       eslint-plugin-react-hooks:
+        optional: true
+      eslint-plugin-react-native:
         optional: true
       prettier:
         optional: true
