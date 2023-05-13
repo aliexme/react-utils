@@ -1,6 +1,6 @@
 # @aliexme/react-utils
 
-React utilites
+React utilities
 
 ## Installation
 
